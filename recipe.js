@@ -3,7 +3,7 @@ module.exports = class Recipe {
     this.id = Number(id);
     this.name = null;
   }
-  async hyrdate() {
+  async hydrate() {
     this.name = `Recipe ${this.id}`
   }
   toJSON() {
